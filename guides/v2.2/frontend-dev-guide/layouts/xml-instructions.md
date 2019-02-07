@@ -283,7 +283,7 @@ Setting a value of `css_class` in the `[app/code/Magento/Theme/view/frontend/lay
 Using the value of `css_class` in `[app/code/Magento/Theme/view/frontend/templates/html/title.phtml]`:
 
 ```php
-$cssClass = $this->hasCssClass() ? ' ' . $this->getCssClass() : '';
+$cssClass = $block->hasCssClass() ? ' ' . $block->getCssClass() : '';
 ```
 
 ### arguments {#arguments}
